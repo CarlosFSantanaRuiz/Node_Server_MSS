@@ -1,0 +1,31 @@
+{
+  "name": "myshopstatisticsapp",
+  "version": "1.0.0",
+  "description": "Automotive Statistics Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosFSantanaRuiz/MyShopStats.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+
+  },
+  "author": "Carlos SantanaRuiz & Tyler Whipple",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosFSantanaRuiz/MyShopStats/issues"
+  },
+  "homepage": "https://github.com/CarlosFSantanaRuiz/MyShopStats#readme"
+}
